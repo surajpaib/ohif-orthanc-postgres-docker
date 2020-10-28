@@ -16,6 +16,13 @@ window.config = {
           imageRendering: 'wadors',
           thumbnailRendering: 'wadors',
           enableStudyLazyLoad: true,
+          requestOptions: {
+		          auth: "demo:demo",
+		          logRequests: true,
+		          logResponses: false,
+		          logTiming: true,
+		          requestFromBrowser: true,
+		        }
         },
       ],
     },
